@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^test/', include('testapp.urls')),
     url(r'^ganji/', include('ganji.urls')),
+    url(r'^blog/', include('pure_layout_blog.urls')),
     url(r'^admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

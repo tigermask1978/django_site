@@ -36,6 +36,7 @@ MEDIA_URL = '/media/'
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
+    'pure_layout_blog.apps.PureLayoutBlogConfig',
     'ganji.apps.GanjiConfig',
     'testapp.apps.TestappConfig',
     'django.contrib.admin',
