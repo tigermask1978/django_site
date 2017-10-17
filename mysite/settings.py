@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'pure_layout_blog.apps.PureLayoutBlogConfig',
     'ganji.apps.GanjiConfig',
     'testapp.apps.TestappConfig',
+    'semantic_web.apps.SemanticWebConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
